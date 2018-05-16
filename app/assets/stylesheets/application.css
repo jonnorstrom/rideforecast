@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+
+.header-text {
+  text-align: center;
+}
+
+.address-field > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.address-field input {
+  width: 100%;
+}
