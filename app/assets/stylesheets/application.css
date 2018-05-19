@@ -20,6 +20,11 @@
   margin-bottom: 60px;
 }
 
+.alert {
+  color: red;
+  text-decoration: underline;
+}
+
 .address-field > div {
   display: flex;
   flex-direction: column;

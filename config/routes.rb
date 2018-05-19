@@ -3,5 +3,5 @@ Rails.application.routes.draw do
 
   root to: 'home#root'
 
-  resource :trips
+  resources :trips
 end
