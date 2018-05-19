@@ -12,9 +12,9 @@ class TripsController < ApplicationController
 
   def show
     @trip = Trip.find(params[:id])
-    JSON.parse(HTTParty.get(@trip.directions_api).body)
+    resp = JSON.parse(HTTParty.get(@trip.directions_api).body)
     @trip.update_info(resp)
-    
+
   end
 
 
